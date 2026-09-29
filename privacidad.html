@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacidad y Términos — Parte de Accidente</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0B1B33; --bg:#F1F4FA; --card:#FFFFFF; --ink:#0F1E36; --ink-soft:#56657F; --ink-faint:#8A97AD;
+    --line:#E2E8F2; --accent:#FF6A2B; --accent-bg:#FFEDE4; --green:#17A673; --green-bg:#E6F7F0;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',system-ui,-apple-system,sans-serif;line-height:1.6;}
+  .top{
+    background:linear-gradient(165deg,#0B1B33 0%,#11274B 100%);color:#fff;
+    padding:calc(env(safe-area-inset-top) + 22px) 20px 26px;border-radius:0 0 26px 26px;
+  }
+  .top a.back{color:rgba(255,255,255,.75);text-decoration:none;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:6px;margin-bottom:14px;}
+  .top a.back:before{content:'←';}
+  .kicker{font-weight:700;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#FF9A6B;margin-bottom:8px;}
+  h1{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:28px;letter-spacing:-.6px;margin:0 0 8px;}
+  .updated{font-size:12.5px;color:rgba(255,255,255,.65);}
+  .wrap{max-width:680px;margin:0 auto;padding:0 18px 60px;}
+  .card{background:var(--card);border-radius:22px;padding:22px 20px;margin-top:16px;box-shadow:0 1px 2px rgba(15,30,54,.05),0 10px 28px rgba(15,30,54,.06);}
+  .toc{display:flex;flex-direction:column;gap:8px;}
+  .toc a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:600;padding:9px 12px;border-radius:12px;background:var(--bg);}
+  .toc span{color:var(--ink-faint);font-family:'IBM Plex Mono',monospace;font-size:11.5px;margin-right:8px;}
+  section{margin-top:28px;}
+  section:first-of-type{margin-top:0;}
+  h2{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:20px;letter-spacing:-.3px;margin:0 0 4px;scroll-margin-top:16px;}
+  .h2sub{font-size:12.5px;color:var(--ink-faint);margin:0 0 14px;}
+  h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:15.5px;margin:18px 0 6px;letter-spacing:-.2px;}
+  p{font-size:14.5px;color:var(--ink-soft);margin:0 0 12px;}
+  ul{margin:0 0 12px;padding-left:20px;}
+  li{font-size:14.5px;color:var(--ink-soft);margin-bottom:8px;}
+  b{color:var(--ink);}
+  .callout{background:var(--accent-bg);border-radius:16px;padding:14px 16px;font-size:13.5px;color:#7A3612;margin:14px 0;}
+  .callout b{color:#7A3612;}
+  .callout.green{background:var(--green-bg);color:#1C5A45;}
+  .callout.green b{color:#1C5A45;}
+  code{background:var(--bg);border-radius:5px;padding:2px 6px;font-family:'IBM Plex Mono',monospace;font-size:12.5px;}
+  .fillin{background:#FFF3D6;border:1px dashed #E0A430;border-radius:6px;padding:1px 6px;font-weight:600;}
+  .footdisc{font-size:12px;color:var(--ink-faint);text-align:center;margin-top:34px;line-height:1.6;}
+  a{color:var(--accent);}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="wrap" style="padding:0 20px;">
+    <a class="back" href="./index.html">Volver a la app</a>
+    <div class="kicker">Parte de Accidente</div>
+    <h1>Privacidad y Términos de uso</h1>
+    <div class="updated">Última actualización: <span class="fillin" style="background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.3);color:#fff;">28 de septiembre de 2026</span></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="card">
+    <p style="margin:0;">Este documento explica en lenguaje simple qué es esta herramienta, cómo trata tus datos y bajo qué condiciones la podés usar.</p>
+    <div class="toc" style="margin-top:16px;">
+      <a href="#que-es"><span>01</span>Qué es esta herramienta</a>
+      <a href="#privacidad"><span>02</span>Política de Privacidad</a>
+      <a href="#terminos"><span>03</span>Términos y Condiciones</a>
+    </div>
+  </div>
+
+  <section id="que-es" class="card">
+    <h2>1. Qué es esta herramienta</h2>
+    <p class="h2sub">Y, más importante, qué NO es</p>
+    <p>"Parte de Accidente" es una aplicación web gratuita que ayuda a ordenar y registrar los datos de un choque de tránsito: los datos de los vehículos involucrados, fotos, un diagrama de daños, testigos y la ubicación. Con eso arma un PDF o una imagen que podés descargar o compartir.</p>
+    <div class="callout">
+      <b>No reemplaza</b> la denuncia policial, la denuncia de siniestro ante tu aseguradora, ni el asesoramiento de un abogado o de un profesional de seguros. Los recordatorios que muestra (por ejemplo "no firmes nada" o "avisá a tu aseguradora") son orientaciones generales, no asesoramiento legal, y pueden no aplicar a tu caso, tu póliza o tu jurisdicción.
+    </div>
+    <p>Se ofrece "tal como está" (<i>as is</i>), sin garantías de ningún tipo, incluyendo garantías de exactitud, disponibilidad o continuidad del servicio.</p>
+  </section>
+
+  <section id="privacidad" class="card">
+    <h2>2. Política de Privacidad</h2>
+    <p class="h2sub">Qué datos se cargan, dónde quedan y quién los ve</p>
+
+    <h3>2.1 — Dónde se guarda lo que cargás</h3>
+    <div class="callout green">
+      Todo lo que escribís o subís (datos personales, patentes, fotos, notas, daños marcados) se guarda <b>únicamente en el navegador de tu propio dispositivo</b>, usando almacenamiento local del navegador (<code>localStorage</code>). No existe una cuenta, un servidor propio ni una base de datos central donde se junten los partes de distintas personas. Quien publica esta herramienta no puede ver, ni accede en ningún momento, a los datos que cargás.
+    </div>
+    <p>Esto tiene una consecuencia importante: si borrás los datos de navegación de tu celular, desinstalás la app de tu pantalla de inicio, o usás otro dispositivo, esa información se pierde y no se puede recuperar desde ningún lado. Por eso la herramienta ofrece guardar una copia y exportar un archivo de respaldo — esa es tu única forma de tener un backup.</p>
+
+    <h3>2.2 — Qué datos se cargan</h3>
+    <ul>
+      <li><b>Tuyos:</b> nombre, DNI/documento, teléfono, email, patente/placa, marca y modelo del auto, aseguradora y número de póliza.</li>
+      <li><b>De la otra persona involucrada:</b> los mismos datos, más los de eventuales testigos (nombre y teléfono).</li>
+      <li><b>Fotos</b> de los vehículos, documentación y la escena, con la fecha en que se tomaron.</li>
+      <li><b>Ubicación</b> del hecho, como texto (dirección) y, si usás "Usar mi ubicación actual", las coordenadas GPS exactas.</li>
+      <li><b>Notas de texto libre</b> sobre cómo ocurrió el hecho.</li>
+    </ul>
+    <p>Como quien carga estos datos no es necesariamente el titular de todos ellos (por ejemplo, los de la otra persona o los testigos), quien complete el parte es responsable de usarlos solo para este fin y de compartirlos únicamente con quien corresponda (la aseguradora, un abogado, la contraparte).</p>
+
+    <h3>2.3 — Qué se comparte con terceros, y cuándo</h3>
+    <p>Esta herramienta no vende ni comparte tus datos con nadie con fines comerciales o publicitarios. Las únicas comunicaciones con servidores externos son técnicas y ocurren en estos casos:</p>
+    <ul>
+      <li><b>Tipografías y librerías:</b> al abrir la página, tu navegador descarga fuentes desde Google Fonts y las librerías que arman el PDF desde <code>cdnjs.cloudflare.com</code>. Como cualquier sitio web, esos servidores pueden ver tu dirección IP, pero no reciben ningún dato de los que cargás en el formulario.</li>
+      <li><b>Ubicación:</b> si tocás "Usar mi ubicación actual", tus coordenadas se envían a los servicios públicos y gratuitos de OpenStreetMap (Nominatim y Overpass) para traducirlas a una dirección. Es la única función que envía datos propios del hecho fuera de tu dispositivo, y solo se activa si vos la tocás.</li>
+      <li><b>Envío del parte:</b> cuando usás "Compartir" o generás el PDF, sos vos quien decide a dónde va (WhatsApp, email, guardarlo en tu celular). La herramienta no lo envía a ningún lado por su cuenta.</li>
+      <li class="js-analytics-note"><b>Estadísticas de uso (si están activadas):</b> quien publica esta herramienta puede activar un contador de visitas anónimo (GoatCounter) para saber cuánta gente la usa y qué botones toca (por ejemplo, cuántas veces se generó un PDF). Ese contador no usa cookies, no identifica personas y nunca recibe el contenido de ningún parte — solo el nombre de la acción (por ejemplo "empezar" o "pdf"). Si está desactivado, no se carga ningún script de este tipo.</li>
+    </ul>
+
+    <h3>2.4 — Tus derechos sobre tus datos</h3>
+    <p>Como todo vive en tu propio dispositivo, tenés control total en todo momento:</p>
+    <ul>
+      <li><b>Borrar:</b> el botón "Borrar mis datos guardados" elimina tu perfil guardado, y "Empezar un parte nuevo" limpia el parte actual. Borrar los datos de navegación de Safari/Chrome para este sitio elimina absolutamente todo.</li>
+      <li><b>Exportar:</b> "Exportar copia de seguridad" te da un archivo con todo lo guardado, para tener tu propio respaldo o pasarlo a otro dispositivo.</li>
+      <li><b>Acceder y corregir:</b> todos los campos son editables en cualquier momento, no hay datos "ocultos" que no puedas ver.</li>
+    </ul>
+
+    <h3>2.5 — Menores de edad</h3>
+    <p>Esta herramienta no está dirigida a menores de edad. Si sos menor y estuviste involucrado en un choque, pedí ayuda a un adulto responsable para completar el parte y hacer las denuncias correspondientes.</p>
+
+    <h3>2.6 — Cambios a esta política</h3>
+    <p>Esta política puede actualizarse. La fecha de "última actualización" al principio de esta página indica la versión vigente.</p>
+  </section>
+
+  <section id="terminos" class="card">
+    <h2>3. Términos y Condiciones de uso</h2>
+    <p class="h2sub">Las reglas de juego al usar la herramienta</p>
+
+    <h3>3.1 — Aceptación</h3>
+    <p>Al usar esta herramienta, aceptás estos términos y la Política de Privacidad de la sección anterior. Si no estás de acuerdo, no la uses.</p>
+
+    <h3>3.2 — El servicio</h3>
+    <p>Es una herramienta gratuita, provista "tal como está" y "según disponibilidad", sin garantías de ningún tipo, expresas o implícitas, incluyendo garantías de exactitud, funcionamiento ininterrumpido, ausencia de errores, o idoneidad para un propósito particular. Quien la publica puede modificarla, suspenderla o discontinuarla en cualquier momento y sin previo aviso.</p>
+
+    <h3>3.3 — Tu responsabilidad</h3>
+    <ul>
+      <li>Sos responsable de que los datos que cargues sean correctos, y de revisar el PDF o la imagen generada antes de enviarla a cualquier destinatario.</li>
+      <li>Sos responsable del uso que le des a los datos de terceros (la otra persona, testigos) que cargues en el formulario.</li>
+      <li>Sos responsable de guardar tus propias copias de seguridad: al vivir los datos solo en tu dispositivo, su pérdida (por ejemplo, al borrar el navegador o perder el celular) no es responsabilidad de quien publica la herramienta.</li>
+    </ul>
+
+    <h3>3.4 — Límite de responsabilidad</h3>
+    <p>En la máxima medida permitida por la ley, quien publica esta herramienta no será responsable por daños directos, indirectos, incidentales o consecuentes derivados del uso o la imposibilidad de uso de la herramienta, incluyendo la pérdida de datos, decisiones tomadas en base a la información generada, o consecuencias de un uso incorrecto o incompleto del parte generado.</p>
+
+    <h3>3.5 — Propiedad</h3>
+    <p>El diseño, el código y los textos de esta herramienta pertenecen a quien la publica, salvo las librerías de terceros que usa (con sus propias licencias de código abierto).</p>
+
+    <h3>3.6 — Ley aplicable</h3>
+    <p>Estos términos se rigen por las leyes de la <span class="fillin">República Argentina</span>, sin perjuicio de las normas de protección al consumidor o de datos personales que puedan aplicar en tu país de residencia.</p>
+  </section>
+
+  <p class="footdisc">Al usar esta herramienta, confirmás que leíste y aceptás esta Política de Privacidad y estos Términos y Condiciones.</p>
+</div>
+
+<script>
+  // Si el operador activó el contador de visitas en index.html (GOATCOUNTER_CODE no vacío),
+  // mostramos la mención correspondiente en la sección de privacidad. Si no, la ocultamos
+  // para no prometer algo que no está pasando.
+  fetch('./index.html').then(r => r.text()).then(html => {
+    const m = html.match(/const GOATCOUNTER_CODE\s*=\s*'([^']*)'/);
+    const active = m && m[1] && /^[a-z0-9-]+$/i.test(m[1]);
+    if(!active){
+      document.querySelectorAll('.js-analytics-note').forEach(el => el.remove());
+    }
+  }).catch(()=>{});
+</script>
+</body>
+</html>
